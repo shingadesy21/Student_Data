@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Student Data</string>
+    <string name="fname">Enter First Name</string>
+    <string name="lname">Enter Last Name</string>
+    <string name="class_id">Enter Class</string>
+    <string name="roll">Enter Roll No</string>
+    <string name="grade">Enter Grade</string>
+    <string name="contact">Enter Conatct No</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+</resources>

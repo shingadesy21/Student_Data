@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Show_Data"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/show_fname"
+    style="@style/edt_style"/>
+    <TextView
+        android:id="@+id/show_lname"
+        style="@style/edt_style"/>
+    <TextView
+        android:id="@+id/show_class"
+        style="@style/edt_style"/>
+    <TextView
+        android:id="@+id/show_grade"
+        style="@style/edt_style"/>
+    <TextView
+        android:id="@+id/show_roll"
+        style="@style/edt_style"/>
+    <TextView
+        android:id="@+id/show_contact"
+        style="@style/edt_style"/>
+</LinearLayout>

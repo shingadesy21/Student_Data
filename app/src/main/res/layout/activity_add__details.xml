@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_Details"
+    android:padding="20dp">
+    <EditText
+        android:id="@+id/first_name"
+        style="@style/edt_style"
+        android:hint="@string/fname"/>
+    <EditText
+        android:id="@+id/lirst_name"
+        style="@style/edt_style"
+        android:hint="@string/lname"/>
+    <EditText
+        android:id="@+id/class_id"
+        style="@style/edt_style"
+        android:hint="@string/class_id"/>
+    <EditText
+        android:id="@+id/roll_no"
+        style="@style/edt_style"
+        android:hint="@string/roll"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/grade_txt"
+        style="@style/edt_style"
+        android:hint="@string/grade"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/conatct_txt"
+        style="@style/edt_style"
+        android:hint="@string/contact"
+        android:inputType="number"
+        android:maxLength="10"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/cancel_btn"
+            style="@style/btn_style"
+            android:text="@string/cancel"/>
+        <Button
+            android:id="@+id/save_btn"
+            style="@style/btn_style"
+            android:text="@string/save"/>
+
+    </LinearLayout>
+
+</LinearLayout>
